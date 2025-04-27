@@ -48,6 +48,10 @@ A RESTful API server built with Go and MongoDB for creating, editing, deleting a
    - For a local instance, start MongoDB (default port: 27017).
    - For a cloud instance (e.g., MongoDB Atlas), obtain the connection URI.
 
+   Prisma provided a very comprehensive guide to install MongoDB on local,
+   you may want to find the guide via this link
+   https://www.prisma.io/dataguide/mongodb/setting-up-a-local-mongodb-database#setting-up-mongodb-on-windows
+
 ## Configuration
 1. Create a `.env` file in the project root:
    ```env
