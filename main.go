@@ -445,5 +445,6 @@ func main() {
 	r.HandleFunc("/responses", getResponses).Methods("GET")                 //get all responses
 	r.HandleFunc("/responses/{survey_id}", getResponsesById).Methods("GET") //get response by survey id
 
+	fmt.Println("Server is running on http://localhost:5050")
 	log.Fatal(http.ListenAndServe(":5050", r))
 }
